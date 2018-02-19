@@ -1,0 +1,91 @@
+ 1
+"CO - Dati Cli/For per sede"
+"ba_cliforsed"
+"ba_cliforsed"
+ 0
+ 0
+*
+ 4
+"Tipo rapporto"
+"ba_cliforsed.DPTIPSOG"
+"DPTIPSOG"
+"C"
+ 3
+ 0
+*
+"Codice"
+"ba_cliforsed.DPCODSOG"
+"DPCODSOG"
+"C"
+ 16
+ 0
+*
+"Codice azienda"
+"ba_cliforsed.DPCODCOM"
+"DPCODCOM"
+"C"
+ 15
+ 0
+*
+"Sede azienda"
+"ba_cliforsed.DPCODSED"
+"DPCODSED"
+"C"
+ 10
+ 0
+*
+ 0
+ 2
+"[TRIM(ba_cliforsed.DPCODCOM)][CONCAT]ý|||ý[CONCAT][TRIM(ba_cliforsed.DPCODSED)]"
+""
+"not in"
+"gsim_qfilsed_reg"
+"AND"
+""
+*
+"ba_cliforsed.DPTIPSOG"
+""
+"="
+"ýCLIý"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 1
+"pAppreg"
+"Applicazione registrata"
+"C"
+"5"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 6
+.f.
+"import_admin"
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%5DZJNKYX%3A%5E%3E+D8UC%3AH%241H9%3F*Bpa%2C%5DB.E%264%2BB5%29%29%28+C%21BLC%28%2BT%40OE%3A%2C+%3A%1A5%2CP%29%40%3CM3R.N%26%5B%3CQ%27H4V3B%22DQ%5C%3CJ%2CY7*C%195%5B2WK7I96JEHW%2C%2F%27vN%2CTG%14%3C%21G5R%29%24E17J%1C%2BAw%27%5CN%3EQ%3A%3D%2C9%3B1%3AMBM%3AE%3A%3FY%7ET%3F%3D%04D%2B%3E3ApcGO5Ga%5E4.7T%3B%3C5D%3AJ%5DI6%13%2B%5BT%3E7W%2F%27%28-3%401*OT%22L%21%2642%223%24%25MGOIE+%2C%28Q%3E6A8%22V%28%3E8%40JOJ%3C*K%2CE%3E+%03%3FSYO%3F%5D6F6%3B%3DAO9D%5C%24TMI%29%00"
+"w%29%3BCo%3CKJyR%24%27L.ILR%3B%5D%3BYB%23KqaKQJIG%5DLE1%2B%3C%3C%23SZES%27%3C%284YF0%3A8I%22.%2C%2CRC%29AX%40Y90BNXA9%07M%3EAB%23%167%27R2%3F%3A%25%28%3FOE%3BO9A%2B1r9-%3F%29%3F*BVZY3%5EO%24.%3A%2FB01H_08L1Bp%5D%5EM%5BGR7OGI%3F%3A%06%21U0%5B11*G%2BIRj5%5B7%29%3A%3D4p%3DDO%5B%5DH%5BNO%22%21I%2BQL%3DxFI2F%3CYDNC%23E%5EL%3E%28%23KS*N%274%5C%283%26%223%23%26%5EISE+%3F%2B%25AFR%21%05%21%28*%22KQ0RUS-42E%21M%25%21%21%07v%5E%23K%22L%2C%5BAPQ%2959Q050%00"
+""
+""
+"native"
+ 0
+ 0
+*
